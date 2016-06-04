@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Sarpanch|Montez|Sree+Krushnadevaraya|Play);
+body {
+  background-color: #5F7470; }
+
+.calculator-border {
+  position: fixed;
+  display: inline-block;
+  padding: 10px;
+  border: 1px #EADCDB solid;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 400px;
+  height: 530px;
+  max-height: 600px;
+  box-shadow: 0 0 3px #B8BDB5;
+  background-color: #EADCDB;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.calculator-screen {
+  position: relative;
+  display: inline-block;
+  border: 1px black solid;
+  border-radius: 2px;
+  width: 320px;
+  height: 70px;
+  box-shadow: 0px 0px 19px #B8BDB5;
+  background-color: #a6a39f;
+  top: 25px; }
+
+.screen-border {
+  position: relative;
+  display: inline-block;
+  border: 1px #E9DCDB solid;
+  border-radius: 3px;
+  width: 393px;
+  height: 150px;
+  box-shadow: 0px 0px 1px black;
+  background-color: #E9DCDC;
+  right: 7px;
+  bottom: 8px; }
+
+.calculator-name {
+  position: relative;
+  display: inline-block;
+  border: 1px #310006 solid;
+  width: 398px;
+  height: 40px;
+  background-color: #220004;
+  box-shadow: 0px 0px 1px #310006;
+  right: 10px;
+  bottom: 3px; }
+
+.small-screen {
+  position: relative;
+  display: inline-block;
+  border: 1px #71564A solid;
+  width: 130px;
+  height: 32px;
+  background-color: #71564A;
+  box-shadow: 0px 0px 1px gray;
+  float: right;
+  right: 10px;
+  top: 5px; }
+
+#separator1, #separator2, #separator3 {
+  border-right: 1px solid;
+  color: black;
+  height: 30px;
+  width: 35px;
+  left: 11px; }
+
+.name {
+  position: relative;
+  font-family: 'Sarpanch';
+  float: left;
+  color: white;
+  left: 40px; }
+
+.num-digit {
+  position: relative;
+  font-family: 'Montez';
+  font-size: 1.8em;
+  color: white;
+  top: 30px;
+  right: 160px;
+  text-shadow: 2px 2px 1px #8D8A85; }
+
+.name-digit {
+  position: relative;
+  font-family: 'Sree Krushnadevaraya';
+  font-size: 1.3em;
+  color: white;
+  right: 130px;
+  bottom: 15px;
+  text-shadow: 2px 2px 1px #8D8A85; }
+
+.elsimate {
+  position: relative;
+  font-family: 'Sree Krushnadevaraya';
+  font-size: 1.2em;
+  color: white;
+  bottom: 40px;
+  left: 100px;
+  text-shadow: 2px 2px 1px #8D8A85; }
+
+.buttons-border {
+  position: relative;
+  display: inline-block;
+  border: 1px #E9DCDB solid;
+  border-radius: 3px;
+  width: 394px;
+  height: 325px;
+  box-shadow: 0px 1px 1px black;
+  background-color: #E9DCDC;
+  right: 8px;
+  bottom: 1px; }
+
+.buttons, .button-plus, #mod {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  font-size: 2em;
+  background-color: #fff;
+  border: 1px #E9DCDB solid;
+  border-radius: 6px;
+  box-shadow: 0px 2px 1px black;
+  margin: 10px 5px 10px 5px;
+  top: 4px;
+  outline: none; }
+  .buttons:active, .button-plus:active, #mod:active {
+    box-shadow: 0px 1px 1px black;
+    outline: none; }
+  .buttons:focus, .button-plus:focus, #mod:focus {
+    outline: none; }
+
+.button-plus {
+  position: absolute;
+  height: 140px;
+  width: 60px;
+  top: 4px;
+  left: 362px; }
+
+.power {
+  background-color: #ece3dd; }
+
+.power-c {
+  background-color: #5D3035;
+  color: #fff;
+  border: 1px #3b1f22 solid; }
+
+.space {
+  position: relative;
+  right: 37px; }
+
+.input {
+  font-family: 'Play';
+  text-align: center;
+  font-size: 3.9em;
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */

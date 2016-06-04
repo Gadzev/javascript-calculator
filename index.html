@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Calculator</title>
+    <script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="calculator.js" async></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid text-center">
+            <div class="container calculator-border">
+                <div class="screen-border">
+                    <div class="calculator-screen">
+                        <span class="input">  </span>
+                    </div>
+                    <h4 class="num-digit">10</h4>
+                    <h4 class="name-digit">Digit</h4>
+                    <h4 class="elsimate">ELSIMATE EL-377T</h4>
+                </div>
+                <div class="calculator-name">
+                    <h5 class="name text-center">FCC POWER CALCULATOR</h5>
+                    <div class="small-screen">
+                        <div class="row">
+                            <div class="separator col-xs-2" id="separator1"></div>
+                            <div class="separator col-xs-2" id="separator2"></div>
+                            <div class="separator col-xs-2" id="separator3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons-border">
+                    <div class="row">
+                        <button class="buttons" value="7">7</button>
+                        <button class="buttons" value="8">8</button>
+                        <button class="buttons" value="9">9</button>
+                        <button class="buttons power-c" value="CA">CA</button>
+                        <button class="buttons power-c" value="CE">CE</button>
+                    </div>
+                    <div class="row">
+                        <button class="buttons" value="4">4</button>
+                        <button class="buttons" value="5">5</button>
+                        <button class="buttons" value="6">6</button>
+                        <button class="buttons power" value="*">X</button>
+                        <button class="buttons power" value="/">÷</button>
+                    </div>
+                    <div class="row space">
+                        <button class="buttons" value="1">1</button>
+                        <button class="buttons" value="2">2</button>
+                        <button class="buttons" value="3">3</button>
+                        <button class="buttons power" value="-">-</button>
+                        <button class="button-plus power" value="+">+</button>
+                    </div>
+                    <div class="row space">
+                        <button class="buttons" value="0">0</button>
+                        <button class="buttons" value=".">.</button>
+                        <button class="buttons power" value="%" id="mod">%</button>
+                        <button class="buttons power" value="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
