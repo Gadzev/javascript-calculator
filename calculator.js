@@ -39,7 +39,7 @@ function equations() {
         result = result.concat(input);
         joined = result.join('');
         console.log(result);
-        var endResult = joined.match(/([-+*/%]?\d+)/g).reduce(function (a,v) {
+        var endResult = joined.match(/([-+*/%.]?\d+)/g).reduce(function (a,v) {
 	return eval((a+''+v),'');
 });
         //var endResult = eval(joined);
@@ -60,7 +60,7 @@ function equations() {
 
         console.log('else ' + result);
         joined = result.join('');
-        tempResult = joined.match(/([-+*/%]?\d+)/g).reduce(function (a,v) {
+        tempResult = joined.match(/([-+*/%.]?\d+)/g).reduce(function (a,v) {
 	return eval((a+''+v),'');
 });
         input.length = 0;
