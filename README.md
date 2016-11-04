@@ -1,4 +1,4 @@
 # javascript-calculator
 An "old school" javascript calculator i made.
 
-Check it at: gadzev.github.io/javascript-calculator
+Check it at: http://gadzev.github.io/javascript-calculator
